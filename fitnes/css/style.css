@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	
+}
+a:visited{
+	text-decoration: none;
+
+}
+
+button{
+	cursor: pointer;
+}
+
+.img_container{
+	width: 300px;
+}
+
+img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*//////////////form add treners//////////////////////*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+/*	flex-direction: column;*/
+	align-items: center;
+}
+
+.flex-column-center{
+	flex-direction: column;
+}
+
+form{
+	width: 30%;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+}
+
+.input-group>*{
+	margin: 5px;
+}
+
+.i-g-radio{
+	flex-direction: row;
+}
+
+
+/*/////////////////form edit treners/////////////////*/
+
+.list-trener{
+	width: 30%;
+}
+
+.form-edit{
+	width: 70%;
+}
+
+.form-edit form{
+	width: 50%;
+}
+
+.trener-item{
+	display: flex;
+	align-items: center;
+	height: 25px;
+	padding: 8px;
+}
+
+.trener-item>*{
+	margin: 5px;
+	font-size: 20px;
+}
+
+.btn{
+	background: transparent;
+	padding: 3px;
+}
+
+.btn-edit{
+	border: 1px solid orange;
+	color: orange;
+}
+
+.btn-delit{
+	border: 1px solid red;
+	color: red;
+}
